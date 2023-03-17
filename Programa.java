@@ -5,13 +5,13 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
-public class programa {
+public class Programa {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        System.out.print("Name Client:");
+        System.out.print("Name of the client:");
         String name = sc.nextLine();
-        System.out.print("Your Email:");
+        System.out.print("Your email:");
         String email = sc.nextLine();
         System.out.print("Birth date:");
         String date = sc.nextLine();
